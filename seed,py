@@ -1,0 +1,6 @@
+import pandas as pd
+from core.models import User
+
+df = pd.read_excel('students.xlsx')
+for _, row in df.iterrows():
+    User.objects.create_user(tr_number=row['TR'], name=row['Name'], role='student')
