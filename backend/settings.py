@@ -11,6 +11,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
     "https://fawt-frontend.vercel.app/"
+    "https://fawt-frontend.vercel.app/login"
     "https://fawt-frontend.vercel.app/student"
     "https://fawt-frontend.vercel.app/admin"
     "https://fawt-frontend.vercel.app/grouping"
