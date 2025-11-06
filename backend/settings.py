@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-3jg61updz-j6nx2o)wr1)5#4ugeb+#70k=!yaflz+aisba*#o)
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
     "https://fawt-frontend.vercel.app/"
