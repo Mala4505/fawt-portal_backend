@@ -15,6 +15,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://fawt-frontend.vercel.app/student"
     "https://fawt-frontend.vercel.app/admin"
     "https://fawt-frontend.vercel.app/grouping"
+    "http://localhost:5173"
 ]
 CORS_ALLOW_CREDENTIALS = True  # ✅ Required for cookies or session headers
 
