@@ -12,6 +12,7 @@ router.register(r'memberships', GroupMembershipViewSet)
 urlpatterns = [
     path('', include(router.urls)),
     path('books/', BookListView.as_view(), name='book-list'),
+    path('books/<int:pk>/', BookDetailView.as_view(), name='book-detail'),
     path('entries/', PageEntryView.as_view(), name='entry-list-create'),
     path('entries/<int:pk>/', EntryDetailView.as_view(), name='entry-detail'),
     path('group-list/', GroupListView.as_view(), name='group-list'),
